@@ -1,5 +1,8 @@
 body{
     margin: 0;
+    background-image: url("imagenes/rojo.png");
+    background-position: center;
+    background-repeat: repeat;
     background-color: #5a0000;
     text-align: center;
 }
@@ -12,19 +15,55 @@ nav {
     color: white;
     font-size: 40px;
 }
+h1{
+    color: white;
+    font-size: 40px;
+}
+h2{
+    color: gray;
+    font-size: 30px;
+}
 #capa {
     margin: 0;
     text-align: center;
     color: gray;
     background-color: black;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 150px;
     margin-right: 500px;
     margin-left: 500px;
     border-radius: 15px 15px 15px 15px;
 }
+#estudios{
+    margin:0;
+    text-align: justify;
+    background-color: black;
+    color: gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 100px;
+    margin-right: 250px;
+    margin-left: 250px;
+    border-radius: 15px 15px 15px 15px;
+}
 #conocimientos{
+    margin: 0;
+    text-align: justify;
+    background-color: black;
+    color: gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 15px 15px 15px 15px;
+}
+#datos{
     margin: 0;
     text-align: justify;
     background-color: black;
